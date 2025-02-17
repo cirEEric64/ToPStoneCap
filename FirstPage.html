@@ -9,6 +9,7 @@
     <!--
     Create a silly personality quiz with a theme!
         Create a quiz, like what pokemon are you, or what is your irrational fear, then have a results page with info + pictures
+    
     For both pages
     Required HTML components
         Complete html 5 base code (aka the boiler plate)
@@ -38,22 +39,47 @@
             One to a url
             And one back to the first page
 -->
+
     <h1 style="text-align: center;">I gotta do this again Gamer QUiz (olny for truse gamers)</h1>
     <h2 style="text-align: center;"> what Type of <strong style="color: red;"> Gamer </strong> ARe You??</h2>
-
+    <h3> Asnwer some basic questions so we know what type of Gamer ou are. <text style="font-size: 50px;">&#128512; </text>  </h3>
+    
+    
+     <!-- Start of Form-->
     <form action="SecondPage.html">
+        
+        <!-- First Question-->
+        Are you a <br>
         <input type="radio" id="Casual" name="ToG" value="Casual">
         <label for="Casual">Casual</label> <br>
         <input type="radio" id="Avg" name="ToG" value="Average">
         <label for="Avg">Average</label><br>
         <input type="radio" id="HardCore" name="ToG" value="HardCore">
-        <label for="HardCore">HardCore</label><br> <br>
+        <label for="HardCore">HardCore</label><br>
+        Gamer!! <br> <br>
 
-        <input type="submit" value="Submit">
+
+        <!-- Second Question-->
+        <label for="something"> Somehiting:</label>
+        <select name="something" id="something">
+            <option value=""> </option>
+            <option value=""> </option>
+            <option value=""> </option>
+            <option value=""> </option>
+        </select> <br> <br>
+
+
+        <!-- Third Question-->
+        <label for="genretype">What type of genre do you mostly play?</label> <br>
+        <textarea name="genre" id="genretype" placeholder="Action, Advernture, RPG, Single Player" rows="5" cols="25"></textarea>
+
+        <!-- Last Question-->
+         
+        <br><input type="submit" value="Submit">
+        
 
 
     </form>
-
-    <a href="SecondPage.html"> SecondPage</a>
+    
 </body>
 </html>
