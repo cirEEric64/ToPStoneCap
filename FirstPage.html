@@ -6,6 +6,54 @@
     <title>First_Page</title>
 </head>
 <body>
-    <h1>I gotta do this again</h1>
+    <!--
+    Create a silly personality quiz with a theme!
+        Create a quiz, like what pokemon are you, or what is your irrational fear, then have a results page with info + pictures
+    For both pages
+    Required HTML components
+        Complete html 5 base code (aka the boiler plate)
+            Proper use of the head and body section - be able to explain what goes where
+            Modify the title 
+            Tags: <html>, <head>, <body>, <title>
+        Add some text! You should have a title, and some relevant context or instructions
+            Tags: <p>, <blockquote>, or <br> 
+        Change the styling of the font 
+            Tags: <h1> etc, <em> or <i>, <strong> or <b>, or use CSS
+        Add a picture or gif!
+            Tags: <img>
+        Comment out a line
+
+    In addition!! For the first page (the interactive page):
+        Add a form with 4 questions 
+            Select field with at least three options
+            Radio input with at least three options
+            Any other text-based input - of your choice -- use a placeholder
+            A final input tag - something beyond what was covered in class 
+            Make sure that the data from the 4 inputs below are accurately captured in the url after the submit button is pushed, 
+            The form action should go to the second page
+
+    In addition! For the second page (the informational page):
+        Include an ordered and unordered list. Making it nested would be ideal!
+        Include 2 anchor tags that link to another page
+            One to a url
+            And one back to the first page
+-->
+    <h1 style="text-align: center;">I gotta do this again Gamer QUiz (olny for truse gamers)</h1>
+    <h2 style="text-align: center;"> what Type of <strong style="color: red;"> Gamer </strong> ARe You??</h2>
+
+    <form action="SecondPage.html">
+        <input type="radio" id="Casual" name="ToG" value="Casual">
+        <label for="Casual">Casual</label> <br>
+        <input type="radio" id="Avg" name="ToG" value="Average">
+        <label for="Avg">Average</label><br>
+        <input type="radio" id="HardCore" name="ToG" value="HardCore">
+        <label for="HardCore">HardCore</label><br> <br>
+
+        <input type="submit" value="Submit">
+
+
+    </form>
+
+    <a href="SecondPage.html"> SecondPage</a>
 </body>
 </html>
